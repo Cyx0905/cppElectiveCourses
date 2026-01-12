@@ -4,7 +4,7 @@
 ### 題目概述
 判斷一個介於20000000~30000000的8位數是否為質數，與把它的最大位數刪除之後是否為質數，重覆直到變成個位數，如果全部都是，那麼那一天就是質數日。
 ### 原始程式(理論上不正確)
-```cpp=
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 bool isPrime(int n){
@@ -37,7 +37,7 @@ int main()
 }
 ```
 ### 正確程式
-```cpp=
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -86,7 +86,7 @@ int main() {
 令f(x)=2x–3；g(x,y)=2x+y–7；h(x,y,z)=3x–2y+z
 計算合成函數的值
 ### 程式
-```cpp=
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 int eval() {
@@ -122,7 +122,7 @@ int main() {
 這題的解題重點是要判斷輸入的函式代號來決定這個函式需要讀幾個值，然後來計算整個合成函式計算出來的值。
 ### a175: 二維黑白影像編碼
 ### 程式
-```cpp=
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 string str;
